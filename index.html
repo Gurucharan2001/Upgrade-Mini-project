@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST-III Mini Project</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <h4 style="text-align: center;" style="font-family: calibri;">Details Form</h4>
+    <hr width="50%" /><br /><br />
+
+<form id="details-form" name="details_form" autocomplete="off">
+    <label for="name">Name : </label>
+    <input type="text" name="name" id="name" required /><br /><br />
+                
+    <label for="mobile">Mob. No. :</label>
+    <input type="number" name="mobile" id="mobile" onblur="checkLen()" required /><br />
+    <p id="num-res"></p> 
+
+    <label for="email">Email ID:</label>
+    <input type="email" name="Email" id="email" onblur="checkEmail()" required /><br />
+    <p id="email-res"></p>
+
+    
+    <button type="submit" id="submit-btn" onclick="check_empty()">SUBMIT</button>
+</form>
+<br />
+
+<hr />
+<div id="result-box"> 
+
+</div>
+
+
+<script src="/js/index.js"></script>
+</body>
+</html>

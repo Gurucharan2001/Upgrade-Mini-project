@@ -1,0 +1,29 @@
+body{
+    background-color: lightblue;
+}
+
+#details-form{
+    margin-left:45%;
+    margin-top: 0px;
+}
+
+input{
+    width: 230px;
+    padding: 3px;
+    font-family: calibri;
+}
+
+#submit-btn{
+    width:300px;
+    height:30px;
+    background-color: orange;
+    font-family: calibri;
+}
+
+#submit-btn:hover{
+    cursor: pointer;
+}
+
+#result-box{
+    display: none;
+}
