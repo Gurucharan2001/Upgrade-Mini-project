@@ -27,3 +27,14 @@ input{
 #result-box{
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    #submit-btn{
+        width: 200px;
+        height:25px;
+    }
+    #details-form{
+        margin-left:25%;
+        margin-top: 0px;
+    }
+}

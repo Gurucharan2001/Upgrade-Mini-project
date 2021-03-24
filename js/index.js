@@ -60,17 +60,42 @@ document.getElementById("details-form").addEventListener("submit",function(e){
     
         res_box.appendChild(para);
         res_box.appendChild(delete_btn);
+        // var arr = new Array();
+        // arr.push(para);
     
          document.getElementById("details-form").reset();
-
-        document.getElementsByClassName("delete-btn").addEventListener("click",function(){
-
-            alert("delete the")
-            
-            document.getElementsByClassName("res-para").forEach(para => {
-                para.remove
-            });
+         
+         document.getElementsByClassName("delete-btn")[0].addEventListener("click",function(){
+             document.getElementsByClassName("res-para")[0].remove(); 
+         })
+         document.getElementsByClassName("delete-btn")[1].addEventListener("click",function(){
+             document.getElementsByClassName("res-para")[1].remove(); 
+         })
+         document.getElementsByClassName("delete-btn")[2].addEventListener("click",function(){
+             document.getElementsByClassName("res-para")[2].remove(); 
+         })
+         document.getElementsByClassName("delete-btn")[3].addEventListener("click",function(){
+             document.getElementsByClassName("res-para")[3].remove(); 
+         })
+         document.getElementsByClassName("delete-btn")[4].addEventListener("click",function(){
+             document.getElementsByClassName("res-para")[4].remove(); 
+         })
+         document.getElementsByClassName("delete-btn")[5].addEventListener("click",function(){
+             document.getElementsByClassName("res-para")[5].remove(); 
+         })
+         document.getElementsByClassName("delete-btn")[6].addEventListener("click",function(){
+             document.getElementsByClassName("res-para")[6].remove(); 
+         })
+         document.getElementsByClassName("delete-btn")[7].addEventListener("click",function(){
+            document.getElementsByClassName("res-para")[7].remove(); 
         })
+        document.getElementsByClassName("delete-btn")[8].addEventListener("click",function(){
+            document.getElementsByClassName("res-para")[8].remove(); 
+        })
+        document.getElementsByClassName("delete-btn")[9].addEventListener("click",function(){
+            document.getElementsByClassName("res-para")[9].remove(); 
+        })
+
     
 
 
